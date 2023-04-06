@@ -61,7 +61,7 @@ span{
 
 
 hr{
-    color: ;
+    color:var(--color-line) ;
 }
 p{
     padding-bottom: 1rem;
