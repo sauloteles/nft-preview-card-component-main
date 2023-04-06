@@ -20,9 +20,10 @@ body{
 .card-main{
     background-color: var(--color-card-bg);
     width: 18rem;
-    font-size: 18px;
+    font-size: 15px;
     font-family: var(--outfit);
     border-radius: 10px;
+    margin: auto;
 }
 
 img{
@@ -41,28 +42,57 @@ img{
 .card-details{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
+
+}
+.price-time{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    
+}
+.price-time p{
+
+    padding: 0px;
+    
+}
+.card-details img{
+    padding: 0px;
+    padding-right: 0.4rem;
+    width: 12%;
 }
 
 
 
-
 .card-author{
-    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+
     padding-bottom: 1rem;
 }
 
-.card-author{
-    display: flex
+.card-author p{
+    padding: 0rem;
 }
+
+
+.card-author img{
+    
+    width: 10%;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+  
+}
+
+
+
+
 span{
     padding-left: 4px;
     color: white;
 }
 
 
-hr{
-    color:var(--color-line) ;
-}
 p{
     padding-bottom: 1rem;
     color: var(--color-letter);
